@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Biodata dan Feedback</title>
+</head>
+<body>
+
+    <h1>Biodata Saya</h1>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th>Nama</th>
+            <td>Danendra Zain Awandi</td>
+        </tr>
+        <tr>
+            <th>Tempat/Tanggal Lahir</th>
+            <td>Nganjuk,13 Mei 2008</td>
+        </tr>
+        <tr>
+            <th>Alamat</th>
+            <td>Jl.AR Saleh 4,KedungBanteng </td>
+        </tr>
+        <tr>
+            <th>No. Telepon</th>
+            <td>0895-3037-7xxx</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h1>Formulir Feedback</h1>
+    <form action="#" method="post">
+        <label for="nama">Nama Lengkap:</label><br>
+        <input type="text" id="nama" name="nama"><br>
+
+        <label for="email">Alamat Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="komentar">Komentar/Saran Anda:</label><br>
+        <textarea id="komentar" name="komentar" rows="4" cols="40"></textarea><br>
+
+        <p>Apakah Anda puas dengan materi ini?</p>
+        <input type="radio" id="puas" name="kepuasan" value="ya">
+        <label for="puas">Ya</label>
+        <input type="radio" id="tidak_puas" name="kepuasan" value="tidak">
+        <label for="tidak_puas">Tidak</label>
+         
+        <p>Topik yang ingin dipelajari selanjutnya?</p>
+        <input type="checkbox" id="html" name="topik" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="checkbox" id="css" name="topik" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="checkbox" id="javascript" name="topik" value="JavaScript">
+        <label for="javascript">JavaScript</label><br><br>
+
+        <input type="submit" value="Kirim Feedback">
+    </form>
+
+</body>
+</html>
